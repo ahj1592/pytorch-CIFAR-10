@@ -1,9 +1,10 @@
 # pytorch-CIFAR-10
 practice for pytorch CNN
 
-# Accuracy: about 90%
+# Accuracy: 89% ~ 90%
+- metric: accuracy
 
-# What I used in
+# What I used
 ## Data Augmentation
 - random horizontal flip
 - random rotation
