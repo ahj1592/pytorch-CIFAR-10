@@ -2,6 +2,14 @@
 - pytorch CNN using CIFAR-10 dataset
 - using data augmentation (described below)
 
+|-|CNN ver1|CNN ver2|CNN ver3|
+|:-:|:------:|:------:|:------:|
+|Accuracy(%)|89 ~ 90|89 ~ 90|91|
+|epoch|50|50|30|
+|convergence|30|15|17|
+|optimizer|Adam|Adam|Adam|
+|scheduler|-|-|ReduceLROnPlateau|
+
 # Description of Model version
 ## CNN ver1
 - data augmentation at download the dataset some probability
@@ -14,12 +22,7 @@
 - converge on epoch 15
 - accuracy: 89% ~ 90%
 
-|-|CNN ver1|CNN ver2|CNN ver3|
-|:-:|:------:|:------:|:------:|
-|epoch|50|50|30|
-|convergence|30|15|17|
-|optimizer|Adam|Adam|Adam|
-|scheduler|-|-|ReduceLROnPlateau|
+
 
 
 # What I used
