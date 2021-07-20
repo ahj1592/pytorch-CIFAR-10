@@ -15,8 +15,11 @@
 - accuracy: 89% ~ 90%
 
 |---|CNN ver1|CNN ver2|CNN ver3|
-|---|--------|--------|--------|
+||:------:|:------:|:------:|
 |epoch|50|50|30|
+|optimizer|Adam|
+|scheduler|-|-|ReduceLROnPlateau|
+
 
 # What I used
 ## Data Augmentation
