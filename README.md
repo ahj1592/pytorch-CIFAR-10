@@ -2,9 +2,12 @@
 - pytorch CNN using CIFAR-10 dataset
 - using data augmentation (described below)
 
-|-|CNN ver1|CNN ver2|CNN ver3|
+# Summary
+||CNN ver1|CNN ver2|CNN ver3|
 |:-:|:------:|:------:|:------:|
-|Accuracy(%)|89 ~ 90|89 ~ 90|91|
+|Accuracy|89% ~ 90%|89% ~ 90%|*91%*|
+|train size|50k|250k|250k|
+|test size|10k|10k|10k|
 |epoch|50|50|30|
 |convergence|30|15|17|
 |optimizer|Adam|Adam|Adam|
@@ -16,13 +19,25 @@
 - data size: 50,000
 - converge on epoch 30
 - accuracy: 89% ~ 90%
+- 
 ## CNN ver2 
+- based on ver1
+- remove 3 convolution layers
 - data augmentation at dataloader
 - data size: 250,000
 - converge on epoch 15
 - accuracy: 89% ~ 90%
 
-
+## CNN ver3
+- based on ver2
+- remove 3 convolution layers
+- remove 1 dropout
+- reset dropout probability
+- data augmentation at dataloader
+- data size: 250,000
+- add `scheduler`
+- converge on epoch 17
+- accuracy: 91%
 
 
 # What I used
