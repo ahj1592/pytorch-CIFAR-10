@@ -5,7 +5,7 @@
 # Summary
 ||CNN ver1|CNN ver2|CNN ver3|
 |:-:|:------:|:------:|:------:|
-|Accuracy|89% ~ 90%|89% ~ 90%|*91%*|
+|Accuracy|89% ~ 90%|89% ~ 90%|**91%**|
 |train size|50k|250k|250k|
 |test size|10k|10k|10k|
 |epoch|50|50|30|
@@ -33,8 +33,6 @@
 - remove 3 convolution layers
 - remove 1 dropout
 - reset dropout probability
-- data augmentation at dataloader
-- data size: 250,000
 - add `scheduler`
 - converge on epoch 17
 - accuracy: 91%
@@ -55,10 +53,12 @@
 - use batch normalization
 - max pooling: (2, 2)
 - activation function: ReLU, LogSoftmax
-- dropout: 0.2, only on Linear
+- dropout: 0.2(0.5 on ver3), only on Linear
 
 ## Train
 - initialization: kaiming_uniform(a.k.a He initialization), normal, constant
 - optimizer: Adam
+- learning rate: 0.001
+- scheduler: ReduceLROnPlateau (only ver3)
 - loss: CrossEntropy
-- epochs: 50
+- epochs: 30 ~ 30
