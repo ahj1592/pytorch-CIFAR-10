@@ -2,7 +2,8 @@
 practice for pytorch CNN
 
 # Accuracy: 89% ~ 90%
-- CNN ver1: converge at epoch 30
+- CNN ver1: converge on epoch 30
+- CNN ver2: converge on epoch 15
 
 # What I used
 ## Data Augmentation
