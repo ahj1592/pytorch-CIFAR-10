@@ -1,9 +1,18 @@
 # pytorch-CIFAR-10
-practice for pytorch CNN
+- pytorch CNN using CIFAR-10 dataset
+- using data augmentation (described below)
 
-# Accuracy: 89% ~ 90%
-- CNN ver1: converge on epoch 30
-- CNN ver2: converge on epoch 15
+# Description of Model version
+## CNN ver1
+- data augmentation at download the dataset some probability
+- data size: 50,000
+- converge on epoch 30
+- accuracy: 89% ~ 90%
+## CNN ver2 
+- data augmentation at dataloader
+- data size: 250,000
+- converge on epoch 15
+- accuracy: 89% ~ 90%
 
 # What I used
 ## Data Augmentation
