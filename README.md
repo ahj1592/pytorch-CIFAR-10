@@ -11,7 +11,7 @@
 |epoch|50|50|30|
 |convergence|30|15|17|
 |optimizer|Adam|Adam|Adam|
-|scheduler|-|-|ReduceLROnPlateau|
+|scheduler|X|X|O|
 
 # Description of Model version
 ## CNN ver1
