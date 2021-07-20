@@ -14,10 +14,11 @@
 - converge on epoch 15
 - accuracy: 89% ~ 90%
 
-|---|CNN ver1|CNN ver2|CNN ver3|
-|-|:------:|:------:|:------:|
+|-|CNN ver1|CNN ver2|CNN ver3|
+|:-:|:------:|:------:|:------:|
 |epoch|50|50|30|
-|optimizer|Adam|
+|convergence|30|15|17|
+|optimizer|Adam|Adam|Adam|
 |scheduler|-|-|ReduceLROnPlateau|
 
 
