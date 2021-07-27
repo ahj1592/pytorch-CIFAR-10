@@ -5,4 +5,4 @@
 |epoch|20|
 |convergence|17|
 |optimizer|Adam||
-|scheduler|O|
+|scheduler|ReduceLROnPlateau|
