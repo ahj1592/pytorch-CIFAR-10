@@ -1,4 +1,4 @@
-# pytorch-CIFAR-10
+# pytorch-CIFAR-100
 - pytorch CNN using CIFAR-100 dataset
 - using data augmentation (described below)
 
