@@ -3,4 +3,5 @@ practice repository for pytorch Deep Learning Models
 
 # Contents
 - CIFAR-10 (Accuracy 91%)
-- EMNIST (Accuracy 55%)
+- CIFAR-100 (Accuracy 55%)
+- EMNIST (Accuracy 95%)
